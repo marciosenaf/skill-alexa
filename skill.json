@@ -1,0 +1,95 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "preview": {
+            "assets": {
+              "mobileRectangle": {
+                "images": [
+                  {
+                    "source": {
+                      "location": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c1da/a634aa5b821b4ee5ad0f9da448bd421c/APP_PREVIEW_IMAGE?versionId\u003d136_8l3XiW4S1Sj8YKEoc2QGCkTj1hvg\u0026X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Date\u003d20230323T183042Z\u0026X-Amz-SignedHeaders\u003dhost\u0026X-Amz-Expires\u003d7200\u0026X-Amz-Credential\u003dAKIAWBV6LQ4QML3MIUUT%2F20230323%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Signature\u003db59519c51b9e9feea424f99601cccfaa490a4798fb369284fb11bca8429b081a",
+                      "type": "URI"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "summary": "As melhores músicas",
+          "examplePhrases": [
+            "Alexa, abra sena rock",
+            "alexa, iniciar sena rock",
+            "alexa, tocar sena rock"
+          ],
+          "keywords": [
+            "Músicas",
+            "Rádio",
+            "Som"
+          ],
+          "name": "Sena FM",
+          "description": "Novidades para ouvintes",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "updatesDescription": "Sempre os melhores programas musicais",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Novidades musicais",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:968005550823:function:5e2c60b2-2efb-46b9-8f4f-fdac20465556:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:968005550823:function:5e2c60b2-2efb-46b9-8f4f-fdac20465556:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:968005550823:function:5e2c60b2-2efb-46b9-8f4f-fdac20465556:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:968005550823:function:5e2c60b2-2efb-46b9-8f4f-fdac20465556:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
