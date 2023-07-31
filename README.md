@@ -4,7 +4,7 @@
 <img src="https://github.com/marciosenaf/skill-alexa/blob/main/imagesreadme/Images2.jpg" alt="Texto alternativo" width="300" height="500">
 
 # Visão geral
-Esta documentação fornece uma visão geral de uma habilidade Alexa de amostra para tocar uma estação de rádio que
+Uma visão geral de uma habilidade Alexa de amostra para tocar uma estação de rádio que
 transmite música rock. A habilidade é implementada usando o Alexa Skills Kit (ASK) SDK (v2) e suporta a interface
 AudioPlayer para reprodução de áudio. A habilidade usa uma tabela DynamoDB para persistência de sessão, que é
 configurada automaticamente para habilidades hospedadas do Alexa. A URL da estação de rádio usada na habilidade é uma
@@ -42,7 +42,7 @@ Nota: Lembre-se de substituir o URL da estação de rádio de exemplo pelo URL r
 
 # Conclusão
 
-Esta documentação fornece uma visão geral do código de habilidade Alexa Rock Radio e sua funcionalidade. A habilidade permite aos usuários ouvir uma estação de rádio de rock invocando a habilidade e fornece controles básicos de reprodução. Ao personalizar e estender essa habilidade de amostra, você pode criar suas próprias habilidades Alexa para reproduzir diferentes fluxos de áudio ou implementar recursos de reprodução de áudio mais avançados.
+O código de habilidade Alexa Rock Radio e sua funcionalidade. A habilidade permite aos usuários ouvir uma estação de rádio de rock invocando a habilidade e fornece controles básicos de reprodução. Ao personalizar e estender essa habilidade de amostra, você pode criar suas próprias habilidades Alexa para reproduzir diferentes fluxos de áudio ou implementar recursos de reprodução de áudio mais avançados.
 
 Márcio Sena Santos Filho
 
